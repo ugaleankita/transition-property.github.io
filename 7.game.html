@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+    <style type="text/css">
+
+		#box
+		{
+			height: 550px;
+			width: 100%;
+			background-color: red;
+			background-image: urL(https://t4.ftcdn.net/jpg/01/80/75/49/360_F_180754997_LC1roc8aUqo9WIgZZThUqil0H6nFQSab.jpg);
+			background-size: cover;
+			
+		}
+		.my-img
+		{
+			
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			animation: 5s reverse_boll infinite;
+			
+		}
+		@keyframes reverse_boll
+		{
+			0%{top: 0px;left: 0%;transform: scaleY(1);}
+			15%{top: 400px;left: 20%;transform: scaleY(1);}
+			30%{top: 0px;left: 40%;transform: scaleY(1);}
+			40%{top: 400px;left: 60%;transform: scaleY(1);}
+			50%{top:0px;left:80% ;transform: scaleY(1);}
+			51%{top: 0px;left: 80%;transform: scaleY(-1);}
+			60%{top: 400px;left: 60%;transform: scaleY(-1);}
+			70%{top: 0px;left: 40%;transform: scaleY(-1);}
+			80%{top: 400px;left: 20%;transform: scaleY(-1);}
+        }
+
+
+
+
+			/*0%{top: 0px;left: 0%;transform: scaleY(1);}
+			25%{top: 400px;left: 40%;transform: scaleY(1);}
+			50%{top: 0px;left: 80%;transform: scaleY(1);}
+			51%{top: 400px;left: 80%;transform: scaleY(-1);}
+			75%{top: 0px;left: 40%;transform: scaleY(-1);}
+			100%{top: 400px;left: 0%;transform: scaleY(-1);}
+		}
+	</style>
+</head>
+<body>
+<div id="box">
+	
+
+	<img src="https://img.freepik.com/free-vector/vector-isolated-realistic-soccer-ball-white_1284-41932.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1721779200&semt=sph" height="150px" width="200px"; class="my-img">
+</div>
+</body>
+</html>
